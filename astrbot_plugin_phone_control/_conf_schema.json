@@ -1,0 +1,47 @@
+{
+  "adb_path": {
+    "type": "string",
+    "description": "adb 可执行文件路径",
+    "default": "adb"
+  },
+  "owner_uids": {
+    "type": "list",
+    "description": "允许操作手机的用户 ID（QQ 号）",
+    "default": []
+  },
+  "allow_private_only": {
+    "type": "bool",
+    "description": "只在私聊里响应（推荐开启，避免群里误触）",
+    "default": true
+  },
+  "step_timeout_ms": {
+    "type": "int",
+    "description": "单步 adb 命令超时（毫秒）",
+    "default": 15000
+  },
+  "vision_api_base": {
+    "type": "string",
+    "description": "视觉模型接口地址（可选，填了才用截图读文案）",
+    "default": ""
+  },
+  "vision_api_key": {
+    "type": "string",
+    "description": "视觉模型 API Key（可选）",
+    "default": ""
+  },
+  "vision_model": {
+    "type": "string",
+    "description": "视觉模型名",
+    "default": "glm-4v-flash"
+  },
+  "memory_url": {
+    "type": "string",
+    "description": "记忆服务地址（可选，如 http://127.0.0.1:8790）",
+    "default": ""
+  },
+  "memory_ns": {
+    "type": "string",
+    "description": "记忆命名空间（可选）",
+    "default": ""
+  }
+}

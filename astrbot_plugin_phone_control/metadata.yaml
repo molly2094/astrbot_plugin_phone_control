@@ -1,0 +1,6 @@
+name: astrbot_plugin_phone_control
+display_name: 手机控制
+desc: 通过 adb 操作安卓手机：解锁、看界面、点按、打中文、刷抖音/ B站、评论、私信、搜索
+version: 1.0.0
+author: dsh
+repo: ""

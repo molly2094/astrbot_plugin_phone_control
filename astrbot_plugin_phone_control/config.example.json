@@ -1,0 +1,13 @@
+{
+  "adb_path": "C:\\\\path\\\\to\\\\platform-tools\\\\adb.exe",
+  "owner_uids": [
+    "123456789"
+  ],
+  "allow_private_only": true,
+  "step_timeout_ms": 15000,
+  "vision_api_base": "https://open.bigmodel.cn/api/paas/v4",
+  "vision_api_key": "",
+  "vision_model": "glm-4v-flash",
+  "memory_url": "",
+  "memory_ns": ""
+}

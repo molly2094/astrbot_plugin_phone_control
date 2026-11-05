@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+lock.json
+comments.json
+ime.json
+*.log
+.DS_Store

@@ -1,0 +1,5 @@
+# 本插件只用 Python 标准库（subprocess / json / re / time / urllib），
+# 不依赖 pip 包。真正的外部依赖是系统级的：
+#   1) Android platform-tools（adb）
+#   2) 手机端 ADBKeyboard（中文输入）
+# 详见 README.md 第二章。
